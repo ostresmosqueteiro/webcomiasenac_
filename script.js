@@ -5,9 +5,14 @@
   var botaoContato = document.getElementById("botao-contato");
   var mensagemStatus = document.getElementById("mensagem-status");
   var cards = document.querySelectorAll(".card");
+  var horaTeste = document.getElementById("hora-teste");
 
   if (anoAtual) {
     anoAtual.textContent = new Date().getFullYear();
+  }
+
+  if (horaTeste) {
+    horaTeste.textContent = new Date().toLocaleString("pt-BR");
   }
 
   links.forEach(function (link) {
