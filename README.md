@@ -6,6 +6,7 @@ Projeto simples de front-end feito com HTML, CSS e JavaScript puro para testar v
 
 - Pagina principal: https://ostresmosqueteiro.github.io/webcomiasenac_/
 - Pagina de teste de deploy: https://ostresmosqueteiro.github.io/webcomiasenac_/teste-deploy.html
+- Deploy alternativo no Vercel: https://webcomiasenac.vercel.app/
 
 ## Arquivos principais
 
@@ -39,3 +40,5 @@ O GitHub Actions envia os arquivos estaticos para o GitHub Pages usando:
 - `actions/configure-pages@v5`
 - `actions/upload-pages-artifact@v3`
 - `actions/deploy-pages@v4`
+
+Tambem existe um deploy alternativo no Vercel, usado como segunda opcao de publicacao do mesmo projeto estatico.
